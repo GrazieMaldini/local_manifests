@@ -35,6 +35,7 @@
   <remove-project name="android_vendor_support" />
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_device_qcom_sepolicy" />
   
   <project path="frameworks/base" name="du_frameworks_base" remote="mld" revision="p9x" />
   <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="mld" revision="p9x" />
@@ -51,5 +52,6 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="mld" revision="p9x" />
   <project path="vendor/du" name="android_vendor_du" remote="mld" revision="p9x" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
+  <project path="device/qcom/sepolicy" name="omnirom/android_device_qcom_caf-sepolicy" remote="gh" revision="android-9.0" />
   </project>
 </manifest>
