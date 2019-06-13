@@ -4,7 +4,7 @@
 <remote name="gh"
         fetch="https://github.com/" />
 <remote name="mld"
-        fetch="https://github.com/GrazieMaldini/" />
+        fetch="https://github.com/maldini03/" />
 
   <!-- HALs -->
   <remove-project name="android_hardware_qcom_audio" />
